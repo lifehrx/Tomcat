@@ -1,6 +1,8 @@
 ### 1. 控制台乱码问题
 > 修改配置文件 ：tomcatX.X.X\conf\logging.properties
+>
 > 把所有的 UTF-8 修改为 GBK 结果如下
+
 ```properties
 1catalina.org.apache.juli.AsyncFileHandler.level = FINE
 1catalina.org.apache.juli.AsyncFileHandler.directory = ${catalina.base}/logs
